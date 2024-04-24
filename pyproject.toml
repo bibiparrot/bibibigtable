@@ -1,0 +1,25 @@
+[project]
+name = "bibibigtable"
+version = "0.1.0"
+description = "Big sql table or excel processing"
+authors = [
+    {name = "Chunqi SHI", email = "chunqishi@gmail.com"},
+]
+dependencies = [
+    "datatable>=1.1.0",
+    "openpyxl>=3.1.2",
+    "pandas>=2.2.2",
+    "loguru>=0.7.2",
+    "xlrd==1.2.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
