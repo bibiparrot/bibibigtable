@@ -6,11 +6,16 @@ authors = [
     {name = "Chunqi SHI", email = "chunqishi@gmail.com"},
 ]
 dependencies = [
-    "datatable>=1.1.0",
+    #    "datatable>=1.1.0",
+    #    "xlrd==1.2.0",
+    #    "dask>=2024.4.2",
+    #    "modin[dask]>=0.29.0",
     "openpyxl>=3.1.2",
     "pandas>=2.2.2",
     "loguru>=0.7.2",
-    "xlrd==1.2.0",
+    "XlsxWriter>=3.2.0",
+    "python-calamine>=0.2.0",
+    "packaging>=24.0",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
