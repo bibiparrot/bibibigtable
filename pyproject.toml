@@ -20,6 +20,15 @@ dependencies = [
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bibiparrot/bibibigtable"
+Issues = "https://github.com/bibiparrot/bibibigtable/issues"
 
 [build-system]
 requires = ["pdm-backend"]
@@ -28,3 +37,5 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+
