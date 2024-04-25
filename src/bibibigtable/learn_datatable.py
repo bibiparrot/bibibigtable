@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 from loguru import logger
-xlsx_path = Path(r'E:\FBXYFXYJ\gp23nscrfs-python\dataCache\20240331-新sprd.xlsx')
+xlsx_path = None
 
 
 
